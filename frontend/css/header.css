@@ -1,0 +1,24 @@
+.top_header{
+    background: #48628cff;
+    padding: 16px 32px;
+    align-items: center;
+    display: flex;
+    gap: 48px;
+}
+
+.bottom_header{
+    background: #f2f4f5ff;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_header div{
+    font-size: 20px;
+    display: block;
+    color: #8b8b8fff;
+}
+
+#logo{
+    height: 100%;
+}
