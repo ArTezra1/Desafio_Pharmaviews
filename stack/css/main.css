@@ -1,0 +1,107 @@
+:root{
+    --text-color: #8b8b8fff;
+    --border-color: #757575ff;
+}
+
+main{
+    color: var(--text-color);
+    padding: 16px 32px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+#inputs_actions{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 70%;
+}
+
+.section_action{
+    width: 100%;
+}
+
+#select{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: var(--text-color);
+    width: 100%;
+}
+
+#data_prevista{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    width: 100%;
+}
+
+#investimento_previsto{
+    padding: 4px 8px 4px 32px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.investimento_container{
+    position: relative;
+    display: inline-block;
+}
+
+.moeda{
+    position: absolute;
+    background: lightgray;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    color: black;
+}
+
+#buttons_actions{
+    width: 25%;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#container_form{
+    display: flex;
+}
+
+@media (max-width: 768px){
+    #container_form{
+        flex-direction: column;
+    }
+
+    #inputs_actions{
+        width: 100%;
+    }
+
+    #buttons_actions{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    #inputs_actions{
+        flex-direction: column;
+    }
+}
